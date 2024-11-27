@@ -607,6 +607,7 @@ ClefairyEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, POUND
 	dbw 1, GROWL
+	dbw 1, FAIRY_WIND
 	dbw 4, ENCORE
 	dbw 8, SING
 	dbw 13, DOUBLESLAP

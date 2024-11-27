@@ -279,6 +279,7 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_FairyWind
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3363,6 +3364,7 @@ BattleAnim_Spite:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_FairyWind:
 BattleAnim_PowderSnow:
 	anim_1gfx BATTLE_ANIM_GFX_ICE
 .loop

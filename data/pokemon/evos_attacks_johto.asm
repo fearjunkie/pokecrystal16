@@ -409,7 +409,8 @@ CleffaEvosAttacks:
 	dbw 1, CHARM
 	dbw 4, ENCORE
 	dbw 8, SING
-	dbw 13, SWEET_KISS
+	dbw 13, FAIRY_WIND
+	dbw 18, SWEET_KISS
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
@@ -427,6 +428,7 @@ TogepiEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, CHARM
+	dbw 1, FAIRY_WIND
 	dbw 7, METRONOME
 	dbw 18, SWEET_KISS
 	dbw 25, ENCORE
@@ -569,7 +571,7 @@ PolitoedEvosAttacks:
 HoppipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, SKIPLOOM
 	db 0 ; no more evolutions
-	dbw 1, SPLASH
+	dbw 1, FAIRY_WIND
 	dbw 5, SYNTHESIS
 	dbw 5, TAIL_WHIP
 	dbw 10, TACKLE
@@ -584,7 +586,7 @@ HoppipEvosAttacks:
 SkiploomEvosAttacks:
 	dbbw EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 ; no more evolutions
-	dbw 1, SPLASH
+	dbw 1, FAIRY_WIND
 	dbw 1, SYNTHESIS
 	dbw 1, TAIL_WHIP
 	dbw 1, TACKLE

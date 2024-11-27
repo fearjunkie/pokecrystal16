@@ -256,6 +256,8 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw FairyWindDescription
+	
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1264,3 +1266,7 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+	
+FairyWindDescription:
+	db   "Stirs up magic"
+	next "wind to attack.@"

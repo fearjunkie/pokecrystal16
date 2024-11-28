@@ -273,7 +273,7 @@ HoothootEvosAttacks:
 	dbw 15, REFLECT
 	dbw 21, EXTRASENSORY
 	dbw 24, TAKE_DOWN
-	dbw 27, O
+	dbw 27, OMINOUS_WIND
 	dbw 30, WING_ATTACK
 	dbw 33, MOONBLAST
 	dbw 36, DREAM_EATER

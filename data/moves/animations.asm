@@ -280,6 +280,16 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 	dw BattleAnim_FairyWind
+	dw BattleAnim_Twinbeam
+	dw BattleAnim_PlayRough
+	dw BattleAnim_Moonblast
+	dw BattleAnim_DragonClaw
+	dw BattleAnim_DsrmingVoice
+	dw BattleAnim_NightSlash
+	dw BattleAnim_Extrasensory
+	dw BattleAnim_ShadowSneak
+	dw BattleAnim_OminousWind
+
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1208,6 +1218,7 @@ BattleAnim_RazorLeaf:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_Moonblast:
 BattleAnim_Solarbeam:
 	anim_if_param_equal $0, .FireSolarBeam
 	; charge turn
@@ -1514,6 +1525,7 @@ BattleAnim_Scratch:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_DragonClaw:
 BattleAnim_FurySwipes:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_if_param_equal $1, .alternate
@@ -1794,6 +1806,7 @@ BattleAnim_Wrap:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_Extrasensory:
 BattleAnim_Confusion:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_UserObj_2Row
@@ -1834,6 +1847,7 @@ BattleAnim_Fissure:
 	anim_loop 4, .loop
 	anim_ret
 
+BattleAnim_DsrmingVoice:
 BattleAnim_Growl:
 	anim_1gfx BATTLE_ANIM_GFX_NOISE
 	anim_battlergfx_2row
@@ -1912,6 +1926,7 @@ BattleAnim_ConfuseRay:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_Twinbeam:
 BattleAnim_Leer:
 	anim_1gfx BATTLE_ANIM_GFX_BEAM
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -2110,6 +2125,7 @@ BattleAnim_BodySlam:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_PlayRough:
 BattleAnim_TakeDown:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
@@ -2815,6 +2831,7 @@ BattleAnim_SwordsDance:
 	anim_wait 56
 	anim_ret
 
+BattleAnim_ShadowSneak:
 BattleAnim_QuickAttack:
 	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_MENU
@@ -3777,6 +3794,7 @@ BattleAnim_Rollout:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_NightSlash:
 BattleAnim_FalseSwipe:
 	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_CUT
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
@@ -4362,6 +4380,7 @@ BattleAnim_CrossChop:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_OminousWind:
 BattleAnim_Twister:
 	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
 .loop1

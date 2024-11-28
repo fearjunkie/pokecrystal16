@@ -266,28 +266,35 @@ HoothootEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 6, FORESIGHT
-	dbw 11, PECK
-	dbw 16, HYPNOSIS
-	dbw 22, REFLECT
-	dbw 28, TAKE_DOWN
-	dbw 34, CONFUSION
-	dbw 48, DREAM_EATER
+	dbw 3, PECK
+	dbw 6, CONFUSION
+	dbw 9, SHADOW_SNEAK
+	dbw 12, HYPNOSIS
+	dbw 15, REFLECT
+	dbw 21, EXTRASENSORY
+	dbw 24, TAKE_DOWN
+	dbw 27, O
+	dbw 30, WING_ATTACK
+	dbw 33, MOONBLAST
+	dbw 36, DREAM_EATER
 	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 1, FORESIGHT
+	dbw 1, CONFUSION
 	dbw 1, PECK
-	dbw 6, FORESIGHT
-	dbw 11, PECK
-	dbw 16, HYPNOSIS
-	dbw 25, REFLECT
-	dbw 33, TAKE_DOWN
-	dbw 41, CONFUSION
-	dbw 57, DREAM_EATER
+	dbw 11 SHADOW_SNEAK
+	dbw 13, HYPNOSIS
+	dbw 15, REFLECT
+	dbw 18, WING_ATTACK
+	dbw 23, EXTRASENSORY
+	dbw 28, TAKE_DOWN
+	dbw 33, OMINOUS_WIND
+	dbw 38, WING_ATTACK
+	dbw 43, MOONBLAST
+	dbw 48, DREAM_EATER
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:
@@ -328,6 +335,7 @@ SpinarakEvosAttacks:
 	dbw 6, SCARY_FACE
 	dbw 11, CONSTRICT
 	dbw 17, NIGHT_SHADE
+	dbw 19, SHADOW_SNEAK
 	dbw 23, LEECH_LIFE
 	dbw 30, FURY_SWIPES
 	dbw 37, SPIDER_WEB
@@ -344,6 +352,7 @@ AriadosEvosAttacks:
 	dbw 6, SCARY_FACE
 	dbw 11, CONSTRICT
 	dbw 17, NIGHT_SHADE
+	dbw 19, SHADOW_SNEAK
 	dbw 25, LEECH_LIFE
 	dbw 34, FURY_SWIPES
 	dbw 43, SPIDER_WEB
@@ -407,10 +416,11 @@ CleffaEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, POUND
 	dbw 1, CHARM
-	dbw 4, ENCORE
+	dbw 3, ENCORE
 	dbw 8, SING
 	dbw 13, FAIRY_WIND
 	dbw 18, SWEET_KISS
+	dbw 23, DSRMINGVOICE
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
@@ -421,6 +431,7 @@ IgglybuffEvosAttacks:
 	dbw 4, DEFENSE_CURL
 	dbw 9, POUND
 	dbw 14, SWEET_KISS
+	dbw 19, DSRMINGVOICE
 	db 0 ; no more level-up moves
 
 TogepiEvosAttacks:
@@ -433,7 +444,9 @@ TogepiEvosAttacks:
 	dbw 18, SWEET_KISS
 	dbw 25, ENCORE
 	dbw 31, SAFEGUARD
+	dbw 34, EXTRASENSORY
 	dbw 38, DOUBLE_EDGE
+	dbw 43, MOONBLAST
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
@@ -444,7 +457,9 @@ TogeticEvosAttacks:
 	dbw 18, SWEET_KISS
 	dbw 25, ENCORE
 	dbw 31, SAFEGUARD
+	dbw 34, EXTRASENSORY
 	dbw 38, DOUBLE_EDGE
+	dbw 43, MOONBLAST
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:
@@ -454,7 +469,9 @@ NatuEvosAttacks:
 	dbw 1, LEER
 	dbw 10, NIGHT_SHADE
 	dbw 20, TELEPORT
+	dbw 25, EXTRASENSORY
 	dbw 30, FUTURE_SIGHT
+	dbw 35, OMINOUS_WIND
 	dbw 40, CONFUSE_RAY
 	dbw 50, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -466,9 +483,11 @@ XatuEvosAttacks:
 	dbw 1, NIGHT_SHADE
 	dbw 10, NIGHT_SHADE
 	dbw 20, TELEPORT
+	dbw 30, EXTRASENSORY
 	dbw 35, FUTURE_SIGHT
-	dbw 50, CONFUSE_RAY
-	dbw 65, PSYCHIC_M
+	dbw 40, OMINOUS_WIND
+	dbw 45, CONFUSE_RAY
+	dbw 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 MareepEvosAttacks:
@@ -516,7 +535,8 @@ BellossomEvosAttacks:
 	dbw 1, SWEET_SCENT
 	dbw 1, STUN_SPORE
 	dbw 1, PETAL_DANCE
-	dbw 55, SOLARBEAM
+	dbw 54, SOLARBEAM
+	dbw 59, MOONBLAST
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:
@@ -723,9 +743,10 @@ MurkrowEvosAttacks:
 	dbw 1, PECK
 	dbw 11, PURSUIT
 	dbw 16, HAZE
-	dbw 26, NIGHT_SHADE
+	dbw 21, NIGHT_SHADE
+	dbw 26, NIGHT_SLASH
 	dbw 31, FAINT_ATTACK
-	dbw 41, MEAN_LOOK
+	dbw 36, MEAN_LOOK
 	db 0 ; no more level-up moves
 
 SlowkingEvosAttacks:
@@ -745,6 +766,7 @@ MisdreavusEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, PSYWAVE
+	dbw 1, SHADOW_SNEAK
 	dbw 6, SPITE
 	dbw 12, CONFUSE_RAY
 	dbw 19, MEAN_LOOK
@@ -776,7 +798,7 @@ GirafarigEvosAttacks:
 	dbw 13, STOMP
 	dbw 20, AGILITY
 	dbw 30, BATON_PASS
-	dbw 41, PSYBEAM
+	dbw 41, TWINBEAM
 	dbw 54, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -1080,8 +1102,9 @@ SkarmoryEvosAttacks:
 	dbw 13, SAND_ATTACK
 	dbw 19, SWIFT
 	dbw 25, AGILITY
-	dbw 37, FURY_ATTACK
-	dbw 49, STEEL_WING
+	dbw 31, FURY_ATTACK
+	dbw 37, STEEL_WING
+	dbw 43, NIGHT_SLASH
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
@@ -1288,6 +1311,7 @@ RaikouEvosAttacks:
 	dbw 41, SPARK
 	dbw 51, REFLECT
 	dbw 61, CRUNCH
+	dbw 64, EXTRASENSORY
 	dbw 71, THUNDER
 	db 0 ; no more level-up moves
 
@@ -1301,6 +1325,7 @@ EnteiEvosAttacks:
 	dbw 41, STOMP
 	dbw 51, FLAMETHROWER
 	dbw 61, SWAGGER
+	dbw 64, EXTRASENSORY
 	dbw 71, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -1314,6 +1339,7 @@ SuicuneEvosAttacks:
 	dbw 41, AURORA_BEAM
 	dbw 51, MIST
 	dbw 61, MIRROR_COAT
+	dbw 64, EXTRASENSORY
 	dbw 71, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -1370,6 +1396,7 @@ LugiaEvosAttacks:
 	dbw 1, AEROBLAST
 	dbw 11, SAFEGUARD
 	dbw 22, GUST
+	dbw 23, EXTRASENSORY
 	dbw 33, RECOVER
 	dbw 44, HYDRO_PUMP
 	dbw 55, RAIN_DANCE
@@ -1384,6 +1411,7 @@ HoOhEvosAttacks:
 	dbw 1, SACRED_FIRE
 	dbw 11, SAFEGUARD
 	dbw 22, GUST
+	dbw 23, EXTRASENSORY
 	dbw 33, RECOVER
 	dbw 44, FIRE_BLAST
 	dbw 55, SUNNY_DAY

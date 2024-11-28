@@ -252,4 +252,14 @@ MoveNames::
 	li "WHIRLPOOL"
 	li "BEAT UP"
 	li "FAIRY WIND"
+	li "TWINBEAM"
+	li "PLAY ROUGH"
+	li "MOONBLAST"
+	li "DRAGON CLAW"
+	li "DSRMINGVOICE"
+	li "NIGHT SLASH"
+	li "EXTRASENSORY"
+	li "SHADOW SNEAK"
+	li "OMINOUS WIND"
+	
 	assert_list_length NUM_ATTACKS

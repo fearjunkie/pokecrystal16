@@ -275,6 +275,7 @@ MurkrowEggMoves:
 MisdreavusEggMoves:
 	dw SCREECH
 	dw DESTINY_BOND
+	dw OMINOUS_WIND
 	dw -1 ; end
 
 GirafarigEggMoves:

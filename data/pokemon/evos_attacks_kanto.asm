@@ -610,12 +610,14 @@ ClefairyEvosAttacks:
 	dbw 1, FAIRY_WIND
 	dbw 4, ENCORE
 	dbw 8, SING
+	dbw 11, DSRMINGVOICE
 	dbw 13, DOUBLESLAP
 	dbw 19, MINIMIZE
-	dbw 26, DEFENSE_CURL
-	dbw 34, METRONOME
-	dbw 43, MOONLIGHT
-	dbw 53, LIGHT_SCREEN
+	dbw 25, DEFENSE_CURL
+	dbw 31, METRONOME
+	dbw 37, MOONLIGHT
+	dbw 43, MOONBLAST
+	dbw 49, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 ClefableEvosAttacks:
@@ -624,6 +626,8 @@ ClefableEvosAttacks:
 	dbw 1, DOUBLESLAP
 	dbw 1, METRONOME
 	dbw 1, MOONLIGHT
+	dbw 49, MOONBLAST
+	dbw 55, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -637,6 +641,7 @@ VulpixEvosAttacks:
 	dbw 25, SAFEGUARD
 	dbw 31, FLAMETHROWER
 	dbw 37, FIRE_SPIN
+	dbw 43, EXTRASENSORY
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
@@ -646,6 +651,7 @@ NinetalesEvosAttacks:
 	dbw 1, CONFUSE_RAY
 	dbw 1, SAFEGUARD
 	dbw 43, FIRE_SPIN
+	dbw 49, EXTRASENSORY
 	db 0 ; no more level-up moves
 
 JigglypuffEvosAttacks:
@@ -653,13 +659,15 @@ JigglypuffEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SING
 	dbw 4, DEFENSE_CURL
+	dbw 6, DSRMINGVOICE
 	dbw 9, POUND
-	dbw 14, DISABLE
-	dbw 19, ROLLOUT
-	dbw 24, DOUBLESLAP
-	dbw 29, REST
-	dbw 34, BODY_SLAM
-	dbw 39, DOUBLE_EDGE
+	dbw 12, DISABLE
+	dbw 15, ROLLOUT
+	dbw 18, DOUBLESLAP
+	dbw 21, REST
+	dbw 24, BODY_SLAM
+	dbw 27, DOUBLE_EDGE
+	dbw 30, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
 WigglytuffEvosAttacks:
@@ -667,7 +675,7 @@ WigglytuffEvosAttacks:
 	dbw 1, SING
 	dbw 1, DISABLE
 	dbw 1, DEFENSE_CURL
-	dbw 1, DOUBLESLAP
+	dbw 1, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
@@ -700,13 +708,17 @@ OddishEvosAttacks:
 	dbbw EVOLVE_LEVEL, 21, GLOOM
 	db 0 ; no more evolutions
 	dbw 1, ABSORB
-	dbw 7, SWEET_SCENT
-	dbw 14, POISONPOWDER
-	dbw 16, STUN_SPORE
-	dbw 18, SLEEP_POWDER
-	dbw 23, ACID
-	dbw 32, MOONLIGHT
-	dbw 39, PETAL_DANCE
+	dbw 5, SWEET_SCENT
+	dbw 9, ACID
+	dbw 13, POISONPOWDER
+	dbw 14, STUN_SPORE
+	dbw 15, SLEEP_POWDER
+	dbw 19, MEGA_DRAIN
+	dbw 23, MOONLIGHT
+	dbw 27, GIGA_DRAIN
+	dbw 31, MOONBLAST
+	dbw 35, PETAL_DANCE
+	
 	db 0 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -715,22 +727,28 @@ GloomEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, ABSORB
 	dbw 1, SWEET_SCENT
-	dbw 1, POISONPOWDER
-	dbw 7, SWEET_SCENT
-	dbw 14, POISONPOWDER
-	dbw 16, STUN_SPORE
-	dbw 18, SLEEP_POWDER
-	dbw 24, ACID
-	dbw 35, MOONLIGHT
-	dbw 44, PETAL_DANCE
+	dbw 1, ACID
+	dbw 5, SWEET_SCENT
+	dbw 9, ACID
+	dbw 13, POISONPOWDER
+	dbw 14, STUN_SPORE
+	dbw 15, SLEEP_POWDER
+	dbw 19, MEGA_DRAIN
+	dbw 23, MOONLIGHT
+	dbw 27, GIGA_DRAIN
+	dbw 31, MOONBLAST
+	dbw 35, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, ABSORB
-	dbw 1, SWEET_SCENT
+	dbw 1, MEGA_DRAIN
+	dbw 1, POISONPOWDER
 	dbw 1, STUN_SPORE
-	dbw 1, PETAL_DANCE
+	dbw 1, MOONLIGHT
+	dbw 54, MOONBLAST
+	dbw 59, PETAL_DANCE
+	dbw 64, SOLARBEAM
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
@@ -801,7 +819,7 @@ DiglettEvosAttacks:
 	dbw 9, MAGNITUDE
 	dbw 17, DIG
 	dbw 25, SAND_ATTACK
-	dbw 33, SLASH
+	dbw 33, NIGHT_SLASH
 	dbw 41, EARTHQUAKE
 	dbw 49, FISSURE
 	db 0 ; no more level-up moves
@@ -816,7 +834,7 @@ DugtrioEvosAttacks:
 	dbw 9, MAGNITUDE
 	dbw 17, DIG
 	dbw 25, SAND_ATTACK
-	dbw 37, SLASH
+	dbw 37, NIGHT_SLASH
 	dbw 49, EARTHQUAKE
 	dbw 61, FISSURE
 	db 0 ; no more level-up moves
@@ -832,6 +850,7 @@ MeowthEvosAttacks:
 	dbw 35, SCREECH
 	dbw 41, FURY_SWIPES
 	dbw 46, SLASH
+	dbw 49, NIGHT_SLASH
 	db 0 ; no more level-up moves
 
 PersianEvosAttacks:
@@ -845,6 +864,7 @@ PersianEvosAttacks:
 	dbw 38, SCREECH
 	dbw 46, FURY_SWIPES
 	dbw 53, SLASH
+	dbw 61, NIGHT_SLASH
 	db 0 ; no more level-up moves
 
 PsyduckEvosAttacks:
@@ -1527,6 +1547,7 @@ ExeggcuteEvosAttacks:
 	dbw 31, POISONPOWDER
 	dbw 37, SLEEP_POWDER
 	dbw 43, SOLARBEAM
+	dbw 49, EXTRASENSORY
 	db 0 ; no more level-up moves
 
 ExeggutorEvosAttacks:
@@ -1535,7 +1556,9 @@ ExeggutorEvosAttacks:
 	dbw 1, HYPNOSIS
 	dbw 1, CONFUSION
 	dbw 19, STOMP
+	dbw 25, PSYBEAM
 	dbw 31, EGG_BOMB
+	dbw 37, EXTRASENSORY
 	db 0 ; no more level-up moves
 
 CuboneEvosAttacks:
@@ -1677,12 +1700,13 @@ ChanseyEvosAttacks:
 	dbw 9, TAIL_WHIP
 	dbw 13, SOFTBOILED
 	dbw 17, DOUBLESLAP
-	dbw 23, MINIMIZE
+	dbw 21, MINIMIZE
+	dbw 25, DSRMINGVOICE
 	dbw 29, SING
-	dbw 35, EGG_BOMB
-	dbw 41, DEFENSE_CURL
-	dbw 49, LIGHT_SCREEN
-	dbw 57, DOUBLE_EDGE
+	dbw 33, EGG_BOMB
+	dbw 37, DEFENSE_CURL
+	dbw 41, LIGHT_SCREEN
+	dbw 45, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:

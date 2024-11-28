@@ -270,4 +270,13 @@ Moves1:
 	move EFFECT_TRAP_TARGET,        15, WATER,          70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,          100, 10,   0      ;BEAT_UP
 	move EFFECT_NORMAL_HIT,         40, FAIRY,         100, 30,   0      ;FAIRY_WIND
+	move EFFECT_DOUBLE_HIT,         40, PSYCHIC_TYPE,  100, 10,   0      ;TWINBEAM
+	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,          90, 10,  10      ;PLAY_ROUGH
+	move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,			95, 15,  30      ;MOONBLAST
+	move EFFECT_NORMAL_HIT,         80, DRAGON,        100, 15,   0      ;DRAGON_CLAW
+	move EFFECT_ALWAYS_HIT,         40, FAIRY,         100, 15,   0      ;DSRMINGVOICE
+	move EFFECT_NORMAL_HIT,         70, DARK,          100, 15,   0      ;NIGHT_SLASH
+	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  100, 20,  10      ;EXTRASENSORY
+	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
+	move EFFECT_ALL_UP_HIT,         60, GHOST,         100,  5,  10      ;OMINOUS_WIND
 .IndirectEnd::

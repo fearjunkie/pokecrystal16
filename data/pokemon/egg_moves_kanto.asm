@@ -408,6 +408,7 @@ GrimerEggMoves:
 	dw HAZE
 	dw MEAN_LOOK
 	dw LICK
+	dw SHADOW_SNEAK
 	dw -1 ; end
 
 ShellderEggMoves:

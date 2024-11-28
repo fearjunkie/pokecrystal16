@@ -257,6 +257,15 @@ MoveDescriptions1:
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw FairyWindDescription
+	dw TwinbeamDescription
+	dw PlayRoughDescription
+	dw MoonblastDescription
+	dw DragonClawDescription
+	dw DsrmingVoiceDescription
+	dw NightSlashDescription
+	dw ExtrasensoryDescription
+	dw ShadowSneakDescription
+	dw OminousWindDescription
 	
 .IndirectEnd::
 
@@ -1270,3 +1279,39 @@ BeatUpDescription:
 FairyWindDescription:
 	db   "Stirs up magic"
 	next "wind to attack.@"
+
+TwinbeamDescription:
+	db   "Attacks with two"
+	next "psychic beams.@"
+
+PlayRoughDescription:
+	db   "An attack that may"
+	next "lowers ATTACK.@"
+
+MoonblastDescription:
+	db "Lunar attack may"
+	next "lower SPCL.ATTACK.@"
+
+DragonClawDescription:
+	db "Sharp claws slash"
+	next "the target.@"
+
+DsrmingVoiceDescription:
+	db "Emotional damage"
+	next "always hits.@"
+
+NightSlashDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+ExtrasensoryDescription:
+	db   "Psy attack may"
+	next "make foe flinch.@"
+
+ShadowSneakDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
+
+OminousWindDescription:
+	db   "An attack that may"
+	next "raise all stats.@"

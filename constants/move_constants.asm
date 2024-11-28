@@ -258,6 +258,15 @@
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
 	const FAIRY_WIND
+	const TWINBEAM
+	const PLAY_ROUGH
+	const MOONBLAST
+	const DRAGON_CLAW
+	const DSRMINGVOICE
+	const NIGHT_SLASH
+	const EXTRASENSORY
+	const SHADOW_SNEAK
+	const OMINOUS_WIND
 	
 DEF NUM_ATTACKS EQU const_value - 1
 

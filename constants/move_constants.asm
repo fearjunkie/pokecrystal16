@@ -267,6 +267,10 @@
 	const EXTRASENSORY
 	const SHADOW_SNEAK
 	const OMINOUS_WIND
+	const DAZZLINGLEAM
+	const ENERGY_BALL
+	const FLASH_CANNON
+	const HEAD_SMASH
 	
 DEF NUM_ATTACKS EQU const_value - 1
 

@@ -279,4 +279,9 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  100, 20,  10      ;EXTRASENSORY
 	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
 	move EFFECT_ALL_UP_HIT,         60, GHOST,         100,  5,  10      ;OMINOUS_WIND
+	move EFFECT_NORMAL_HIT,         80, FAIRY,         100, 10,   0      ;DAZZLINGLEAM
+	move EFFECT_SP_DEF_DOWN_HIT,    80, GRASS,         100, 10,  10      ;ENERGY_BALL
+	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,         100, 10,  10      ;FLASH_CANNON
+	move EFFECT_RECOIL_HIT,        150, ROCK,           80,  5,   0      ;HEAD_SMASH
+	
 .IndirectEnd::

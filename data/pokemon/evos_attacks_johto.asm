@@ -500,6 +500,7 @@ MareepEvosAttacks:
 	dbw 23, COTTON_SPORE
 	dbw 30, LIGHT_SCREEN
 	dbw 37, THUNDER
+	dbw 39, DAZZLINGLEAM
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
@@ -513,6 +514,7 @@ FlaaffyEvosAttacks:
 	dbw 27, COTTON_SPORE
 	dbw 36, LIGHT_SCREEN
 	dbw 45, THUNDER
+	dbw 47, DAZZLINGLEAM
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
@@ -526,6 +528,7 @@ AmpharosEvosAttacks:
 	dbw 27, COTTON_SPORE
 	dbw 30, THUNDERPUNCH
 	dbw 42, LIGHT_SCREEN
+	dbw 51, DAZZLINGLEAM
 	dbw 57, THUNDER
 	db 0 ; no more level-up moves
 
@@ -576,6 +579,7 @@ SudowoodoEvosAttacks:
 	dbw 28, ROCK_SLIDE
 	dbw 37, FAINT_ATTACK
 	dbw 46, SLAM
+	dbw 54, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 PolitoedEvosAttacks:
@@ -1050,6 +1054,7 @@ CorsolaEvosAttacks:
 	dbw 31, SPIKE_CANNON
 	dbw 37, MIRROR_COAT
 	dbw 43, ANCIENTPOWER
+	dbw 49, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 RemoraidEvosAttacks:

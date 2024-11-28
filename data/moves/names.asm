@@ -261,5 +261,9 @@ MoveNames::
 	li "EXTRASENSORY"
 	li "SHADOW SNEAK"
 	li "OMINOUS WIND"
+	li "DAZZLINGLEAM"
+	li "ENERGY BALL"
+	li "FLASH CANNON"
+	li "HEAD SMASH"
 	
 	assert_list_length NUM_ATTACKS

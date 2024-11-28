@@ -266,6 +266,10 @@ MoveDescriptions1:
 	dw ExtrasensoryDescription
 	dw ShadowSneakDescription
 	dw OminousWindDescription
+	dw DazzlingleamDescription
+	dw EnergyBallDescription
+	dw FlashCannonDescription
+	dw HeadSmashDescription
 	
 .IndirectEnd::
 
@@ -1315,3 +1319,19 @@ ShadowSneakDescription:
 OminousWindDescription:
 	db   "An attack that may"
 	next "raise all stats.@"
+
+DazzlingleamDescription:
+	db   "Damages foe with"
+	next "a powerful flash.@"
+
+EnergyBallDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
+
+FlashCannonDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
+
+HeadSmashDescription:
+	db   "Brutal headbutt"
+	next "also hurts user.@"

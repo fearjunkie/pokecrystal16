@@ -762,6 +762,7 @@ ParasEvosAttacks:
 	dbw 31, SLASH
 	dbw 37, GROWTH
 	dbw 43, GIGA_DRAIN
+	dbw 47, ENERGY_BALL
 	db 0 ; no more level-up moves
 
 ParasectEvosAttacks:
@@ -776,6 +777,7 @@ ParasectEvosAttacks:
 	dbw 37, SLASH
 	dbw 46, GROWTH
 	dbw 55, GIGA_DRAIN
+	dbw 60, ENERGY_BALL
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
@@ -1256,6 +1258,7 @@ MagnemiteEvosAttacks:
 	dbw 21, THUNDER_WAVE
 	dbw 27, LOCK_ON
 	dbw 33, SWIFT
+	dbw 35, FLASH_CANNON
 	dbw 39, SCREECH
 	dbw 45, ZAP_CANNON
 	db 0 ; no more level-up moves
@@ -1273,6 +1276,7 @@ MagnetonEvosAttacks:
 	dbw 27, LOCK_ON
 	dbw 35, TRI_ATTACK
 	dbw 43, SCREECH
+	dbw 48, FLASH_CANNON
 	dbw 53, ZAP_CANNON
 	db 0 ; no more level-up moves
 
@@ -1717,6 +1721,7 @@ TangelaEvosAttacks:
 	dbw 13, POISONPOWDER
 	dbw 19, VINE_WHIP
 	dbw 25, BIND
+	dbw 28, ENERGY_BALL
 	dbw 31, MEGA_DRAIN
 	dbw 34, STUN_SPORE
 	dbw 40, SLAM
@@ -1827,6 +1832,7 @@ MrMimeEvosAttacks:
 	dbw 31, ENCORE
 	dbw 36, PSYBEAM
 	dbw 41, BATON_PASS
+	dbw 44, DAZZLINGLEAM
 	dbw 46, SAFEGUARD
 	db 0 ; no more level-up moves
 

@@ -285,7 +285,7 @@ NoctowlEvosAttacks:
 	dbw 1, GROWL
 	dbw 1, CONFUSION
 	dbw 1, PECK
-	dbw 11 SHADOW_SNEAK
+	dbw 11, SHADOW_SNEAK
 	dbw 13, HYPNOSIS
 	dbw 15, REFLECT
 	dbw 18, WING_ATTACK

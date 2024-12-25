@@ -271,6 +271,8 @@
 	const ENERGY_BALL
 	const FLASH_CANNON
 	const HEAD_SMASH
+	const PSYSHIELDBSH
+	const ASTONISH
 	
 DEF NUM_ATTACKS EQU const_value - 1
 

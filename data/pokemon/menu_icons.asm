@@ -255,4 +255,5 @@ MonMenuIcons:
 	db ICON_HUMANSHAPE  ; CELEBI
 	db ICON_JIGGLYPUFF  ; AZURILL
 	db ICON_EQUINE      ; FARIGIRAF
+	db ICON_EQUINE      ; WYRDEER
 	assert_table_length NUM_POKEMON

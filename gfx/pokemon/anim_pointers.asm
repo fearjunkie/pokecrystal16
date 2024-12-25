@@ -253,5 +253,6 @@ AnimationPointers:
 	dw CelebiAnimation
 	dw AzurillAnimation
 	dw FarigirafAnimation
+	dw WyrdeerAnimation
 	
 	assert_table_length NUM_POKEMON

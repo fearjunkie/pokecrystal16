@@ -259,4 +259,5 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
 	mon_cry CRY_MARILL,      101,  128 ; AZURILL
 	mon_cry CRY_GIRAFARIG,     0,  320 ; FARIGIRAF
+	mon_cry CRY_AIPOM,      -475,  494 ; WYRDEER
 	assert_table_length NUM_POKEMON

@@ -253,4 +253,6 @@ FirstEvoStages::
 	dw HO_OH
 	dw CELEBI
 	dw AZURILL
+	dw GIRAFARIG
+	dw STANTLER
 	assert_table_length NUM_POKEMON

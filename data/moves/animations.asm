@@ -293,6 +293,8 @@ BattleAnimations::
 	dw BattleAnim_EnergyBall
 	dw BattleAnim_FlashCannon
 	dw BattleAnim_HeadSmash
+	dw BattleAnim_PsyShieldBsh
+	dw BattleAnim_Astonish
 
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
@@ -3448,6 +3450,7 @@ BattleAnim_ScaryFace:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_Astonish:
 BattleAnim_FaintAttack:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_CURSE
@@ -4456,6 +4459,7 @@ BattleAnim_SunnyDay:
 	anim_wait 128
 	anim_ret
 
+BattleAnim_PsyShieldBsh:
 BattleAnim_MirrorCoat:
 	anim_2gfx BATTLE_ANIM_GFX_REFLECT, BATTLE_ANIM_GFX_SPEED
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0

@@ -270,6 +270,8 @@ MoveDescriptions1:
 	dw EnergyBallDescription
 	dw FlashCannonDescription
 	dw HeadSmashDescription
+	dw PsyShieldBshDescription
+	dw AstonishDescription
 	
 .IndirectEnd::
 
@@ -1335,3 +1337,11 @@ FlashCannonDescription:
 HeadSmashDescription:
 	db   "Brutal headbutt"
 	next "also hurts user.@"
+
+PsyShieldBshDescription:
+	db   "Psychic slam that"
+	db   "raises DEFENSE.@"
+	
+AstonishDescription:
+	db	 "An attack that may"
+	db   "make foe flinch.@"

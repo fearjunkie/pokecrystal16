@@ -253,4 +253,5 @@ BitmasksPointers:
 	dw CelebiBitmasks
 	dw AzurillBitmasks
 	dw FarigirafBitmasks
+	dw WyrdeerBitmasks
 	assert_table_length NUM_POKEMON

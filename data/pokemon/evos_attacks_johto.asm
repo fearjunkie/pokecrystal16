@@ -103,6 +103,7 @@ EvosAttacksPointers2::
 	dw CelebiEvosAttacks
 	dw AzurillEvosAttacks
 	dw FarigirafEvosAttacks
+	dw WyrdeerEvosAttacks
 	
 .IndirectEnd::
 
@@ -1196,14 +1197,17 @@ Porygon2EvosAttacks:
 	db 0 ; no more level-up moves
 
 StantlerEvosAttacks:
+    dbbw EVOLVE_LEVEL, 21, WYRDEER
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 8, LEER
-	dbw 15, HYPNOSIS
-	dbw 23, STOMP
+	dbw  1, TACKLE
+	dbw  7, LEER
+	dbw 11, ASTONISH
+	dbw 17, HYPNOSIS
+	dbw 21, PSYSHIELDBSH
+	dbw 27, STOMP
 	dbw 31, SAND_ATTACK
-	dbw 40, TAKE_DOWN
-	dbw 49, CONFUSE_RAY
+	dbw 37, TAKE_DOWN
+	dbw 41, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
 SmeargleEvosAttacks:
@@ -1456,7 +1460,7 @@ AzurillEvosAttacks:
 	dbw 20, SLAM
 	db 0 ; no more level-up moves
 
-FarigirafEvosAttacks
+FarigirafEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
@@ -1470,4 +1474,17 @@ FarigirafEvosAttacks
 	dbw 38, CRUNCH
 	dbw 44, BATON_PASS
 	dbw 50, PSYCHIC_M
+	db 0 ; no more level-up moves
+	
+WyrdeerEvosAttacks:
+	db 0 ; no more evolutions
+	dbw  1, TACKLE
+	dbw  1, PSYSHIELDBSH
+	dbw  3, LEER
+	dbw  7, ASTONISH
+	dbw 10, HYPNOSIS
+	dbw 13, STOMP
+	dbw 16, SAND_ATTACK
+	dbw 27, TAKE_DOWN
+	dbw 32, CONFUSE_RAY
 	db 0 ; no more level-up moves

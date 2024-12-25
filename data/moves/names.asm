@@ -265,5 +265,7 @@ MoveNames::
 	li "ENERGY BALL"
 	li "FLASH CANNON"
 	li "HEAD SMASH"
+	li "PSYSHIELDBSH"
+	li "ASTONISH"
 	
 	assert_list_length NUM_ATTACKS

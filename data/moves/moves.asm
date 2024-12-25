@@ -283,5 +283,7 @@ Moves1:
 	move EFFECT_SP_DEF_DOWN_HIT,    80, GRASS,         100, 10,  10      ;ENERGY_BALL
 	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,         100, 10,  10      ;FLASH_CANNON
 	move EFFECT_RECOIL_HIT,        150, ROCK,           80,  5,   0      ;HEAD_SMASH
+	move EFFECT_DEFENSE_UP_HIT,     70, PSYCHIC_TYPE,   90, 10, 100      ;PSYSHIELDBSH
+	move EFFECT_FLINCH_HIT,         30, GHOST,         100, 15,  30      ;ASTONISH
 	
 .IndirectEnd::

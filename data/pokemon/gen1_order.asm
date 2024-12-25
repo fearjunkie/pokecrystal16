@@ -244,6 +244,7 @@ Pokered_MonIndices:
 	db UNOWN
 	db WOBBUFFET
 	db GIRAFARIG
+	db FARIGIRAF
 	db PINECO
 	db FORRETRESS
 	db DUNSPARCE

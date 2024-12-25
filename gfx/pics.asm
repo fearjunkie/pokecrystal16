@@ -713,5 +713,7 @@ SECTION "Pics 19", ROMX
 
 ; Seems to be an accidental copy of the previous bank
 
-AzurillFrontPic:	 INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
-AzurillBackPic:	     INCBIN "gfx/pokemon/azurill/back.2bpp.lz"
+AzurillFrontpic:	 INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
+AzurillBackpic:	     INCBIN "gfx/pokemon/azurill/back.2bpp.lz"
+FarigirafFrontpic:   INCBIN	"gfx/pokemon/farigiraf/front.animated.2bpp.lz"
+FarigirafBackpic:    INCBIN "gfx/pokemon/farigiraf/back.2bpp.lz"

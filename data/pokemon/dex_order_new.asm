@@ -150,6 +150,7 @@ NewPokedexOrder:
 	dw HITMONCHAN
 	dw HITMONTOP
 	dw GIRAFARIG
+	dw FARIGIRAF
 	dw TAUROS
 	dw MILTANK
 	dw MAGBY

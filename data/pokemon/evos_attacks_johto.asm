@@ -102,6 +102,8 @@ EvosAttacksPointers2::
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw AzurillEvosAttacks
+	dw FarigirafEvosAttacks
+	
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -794,7 +796,7 @@ WobbuffetEvosAttacks:
 	db 0 ; no more level-up moves
 
 GirafarigEvosAttacks:
-	db 0 ; no more evolutions
+	db 0 ; EVOLVE_LEVEL, 32, FARIGIRAF
 	dbw 1, TACKLE
 	dbw 1, GROWL
 	dbw 1, CONFUSION
@@ -802,9 +804,11 @@ GirafarigEvosAttacks:
 	dbw 7, CONFUSION
 	dbw 13, STOMP
 	dbw 20, AGILITY
-	dbw 30, BATON_PASS
-	dbw 41, TWINBEAM
-	dbw 54, CRUNCH
+	dbw 26, BATON_PASS
+	dbw 32, TWINBEAM
+	dbw 38, CRUNCH
+	dbw 44, BATON_PASS
+	dbw 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 PinecoEvosAttacks:
@@ -1450,4 +1454,20 @@ AzurillEvosAttacks:
 	dbw 7, WATER_GUN
 	dbw 13, BUBBLEBEAM
 	dbw 20, SLAM
+	db 0 ; no more level-up moves
+
+FarigirafEvosAttacks
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, GROWL
+	dbw 1, CONFUSION
+	dbw 1, STOMP
+	dbw 7, CONFUSION
+	dbw 13, STOMP
+	dbw 20, AGILITY
+	dbw 26, BATON_PASS
+	dbw 32, TWINBEAM
+	dbw 38, CRUNCH
+	dbw 44, BATON_PASS
+	dbw 50, PSYCHIC_M
 	db 0 ; no more level-up moves

@@ -252,4 +252,6 @@ AnimationIdlePointers:
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle
 	dw AzurillAnimationIdle
+	dw FarigirafAnimationIdle
+	
 	assert_table_length NUM_POKEMON

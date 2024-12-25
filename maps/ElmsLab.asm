@@ -191,8 +191,8 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic AZURILL
-	cry AZURILL
+	pokepic TOTODILE
+	cry TOTODILE
 	waitbutton
 	closepokepic
 	opentext
@@ -209,7 +209,7 @@ TotodilePokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke AZURILL, 5, BERRY
+	givepoke TOTODILE, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript

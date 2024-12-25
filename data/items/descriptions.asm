@@ -25,7 +25,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw QuestionMarkDesc
+	dw DuskStoneDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
@@ -45,12 +45,12 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw DireHitDesc
-	dw QuestionMarkDesc
+	dw IceStoneDesc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw QuestionMarkDesc
+	dw ShinyStoneDesc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
@@ -90,7 +90,7 @@ ItemDescriptions:
 	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
-	dw QuestionMarkDesc
+	dw AncientStoneDesc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
@@ -350,6 +350,10 @@ ThunderStoneDesc:
 WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
+	
+DuskStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -382,6 +386,10 @@ RareCandyDesc:
 XAccuracyDesc:
 	db   "Raises accuracy."
 	next "(1 BTL)@"
+
+ShinyStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 LeafStoneDesc:
 	db   "Evolves certain"
@@ -426,6 +434,10 @@ MaxRepelDesc:
 DireHitDesc:
 	db   "Ups critical hit"
 	next "ratio. (1 BTL)@"
+
+IceStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 FreshWaterDesc:
 	db   "Restores #MON"
@@ -592,6 +604,10 @@ SilverPowderDesc:
 
 BluApricornDesc:
 	db   "A blue APRICORN.@"
+
+AncientStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 AmuletCoinDesc:
 	db   "Doubles monetary"

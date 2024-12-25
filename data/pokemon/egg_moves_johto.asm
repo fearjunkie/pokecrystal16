@@ -32,7 +32,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw AzurillEggMoves
+	dw NoEggMoves2
 	dw NoEggMoves2
 	dw SudowoodoEggMoves
 	dw NoEggMoves2
@@ -101,6 +101,8 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw AzurillEggMoves
+	
 .IndirectEnd::
 
 ChikoritaEggMoves:

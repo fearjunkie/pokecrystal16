@@ -519,5 +519,5 @@ PokemonPicPointers::
 	dba CelebiFrontpic
 	dba CelebiBackpic
 	dba AzurillFrontPic
-	dba AzurillBackPick
+	dba AzurillBackPic
 	assert_table_length NUM_POKEMON + 1

@@ -222,6 +222,7 @@ Pokered_MonIndices:
 	db FLAAFFY
 	db AMPHAROS
 	db BELLOSSOM
+	db AZURILL
 	db MARILL
 	db AZUMARILL
 	db SUDOWOODO

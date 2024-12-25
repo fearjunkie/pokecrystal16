@@ -101,6 +101,7 @@ EvosAttacksPointers2::
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
+	dw AzurillEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1437,4 +1438,16 @@ CelebiEvosAttacks:
 	dbw 30, FUTURE_SIGHT
 	dbw 40, BATON_PASS
 	dbw 50, PERISH_SONG
+	db 0 ; no more level-up moves
+	
+AzurillEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
+	db 0 ; no more evolutions
+	dbw 1, SPLASH
+	dbw 1, BUBBLE
+	dbw 2, TAIL_WHIP
+	dbw 5, CHARM
+	dbw 7, WATER_GUN
+	dbw 13, BUBBLEBEAM
+	dbw 20, SLAM
 	db 0 ; no more level-up moves

@@ -183,8 +183,8 @@ FirstEvoStages::
 	dw MAREEP
 	dw MAREEP
 	dw ODDISH
-	dw MARILL
-	dw MARILL     ;b8
+	dw AZURILL
+	dw AZURILL     ;b8
 	dw SUDOWOODO
 	dw POLIWAG
 	dw HOPPIP
@@ -252,4 +252,5 @@ FirstEvoStages::
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI
+	dw AZURILL
 	assert_table_length NUM_POKEMON

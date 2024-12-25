@@ -32,7 +32,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw MarillEggMoves
+	dw AzurillEggMoves
 	dw NoEggMoves2
 	dw SudowoodoEggMoves
 	dw NoEggMoves2
@@ -215,7 +215,7 @@ MareepEggMoves:
 	dw REFLECT
 	dw -1 ; end
 
-MarillEggMoves:
+AzurillEggMoves:
 	dw LIGHT_SCREEN
 	dw PRESENT
 	dw AMNESIA

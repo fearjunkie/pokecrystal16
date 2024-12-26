@@ -254,5 +254,6 @@ AnimationPointers:
 	dw AzurillAnimation
 	dw FarigirafAnimation
 	dw WyrdeerAnimation
+	dw MamoswineAnimation
 	
 	assert_table_length NUM_POKEMON

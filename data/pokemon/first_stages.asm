@@ -255,4 +255,5 @@ FirstEvoStages::
 	dw AZURILL
 	dw GIRAFARIG
 	dw STANTLER
+	dw SWINUB
 	assert_table_length NUM_POKEMON

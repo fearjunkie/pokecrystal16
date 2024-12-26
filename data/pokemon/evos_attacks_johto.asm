@@ -104,6 +104,7 @@ EvosAttacksPointers2::
 	dw AzurillEvosAttacks
 	dw FarigirafEvosAttacks
 	dw WyrdeerEvosAttacks
+	dw MamoswineEvosAttacks
 	
 .IndirectEnd::
 
@@ -1028,26 +1029,33 @@ SwinubEvosAttacks:
 	dbbw EVOLVE_LEVEL, 33, PILOSWINE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 10, POWDER_SNOW
-	dbw 19, ENDURE
-	dbw 28, TAKE_DOWN
-	dbw 37, MIST
-	dbw 46, BLIZZARD
-	dbw 55, AMNESIA
+	dbw 5, POWDER_SNOW
+	dbw 10, FLAIL
+	dbw 15, QUICK_ATTACK
+	dbw 20, MIST
+	dbw 25, ENDURE
+	dbw 30, ICY_WIND
+	dbw 35, AMNESIA
+	dbw 40, TAKE_DOWN
+	dbw 45, EARTHQUAKE
+	dbw 50, BLIZZARD
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
+	dbbw EVOLVE_ITEM, ICE_STONE, MAMOSWINE
 	db 0 ; no more evolutions
 	dbw 1, HORN_ATTACK
 	dbw 1, POWDER_SNOW
-	dbw 1, ENDURE
-	dbw 10, POWDER_SNOW
-	dbw 19, ENDURE
-	dbw 28, TAKE_DOWN
-	dbw 33, FURY_ATTACK
-	dbw 42, MIST
-	dbw 56, BLIZZARD
-	dbw 70, AMNESIA
+	dbw 1, FLAIL
+	dbw 15, QUICK_ATTACK
+	dbw 20, MIST
+	dbw 25, ENDURE
+	dbw 30, ICY_WIND
+	dbw 37, AMNESIA
+	dbw 44, TAKE_DOWN
+	dbw 51, EARTHQUAKE
+	dbw 58, BLIZZARD
+	dbw 65, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
 CorsolaEvosAttacks:
@@ -1487,4 +1495,20 @@ WyrdeerEvosAttacks:
 	dbw 16, SAND_ATTACK
 	dbw 27, TAKE_DOWN
 	dbw 32, CONFUSE_RAY
+	db 0 ; no more level-up moves
+
+MamoswineEvosAttacks:
+	db 0; no more evolutions
+	dbw 1, HORN_ATTACK
+	dbw 1, POWDER_SNOW
+	dbw 1, FLAIL
+	dbw 15, QUICK_ATTACK
+	dbw 20, MIST
+	dbw 25, ENDURE
+	dbw 30, ICY_WIND
+	dbw 37, AMNESIA
+	dbw 44, TAKE_DOWN
+	dbw 51, EARTHQUAKE
+	dbw 58, BLIZZARD
+	dbw 65, ANCIENTPOWER
 	db 0 ; no more level-up moves

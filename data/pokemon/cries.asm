@@ -260,4 +260,5 @@ PokemonCries::
 	mon_cry CRY_MARILL,      101,  128 ; AZURILL
 	mon_cry CRY_GIRAFARIG,     0,  320 ; FARIGIRAF
 	mon_cry CRY_AIPOM,      -475,  494 ; WYRDEER
+	mon_cry CRY_MAGCARGO,   -379,  384 ; MAMOSWINE
 	assert_table_length NUM_POKEMON

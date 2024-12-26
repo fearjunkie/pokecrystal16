@@ -104,6 +104,7 @@ EggMovePointers2::
 	dw AzurillEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw NoEggMoves2
 	
 .IndirectEnd::
 

@@ -274,6 +274,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const AZURILL
 	const FARIGIRAF
 	const WYRDEER
+	const MAMOSWINE
 	
 DEF NUM_POKEMON EQU const_value - 1
 

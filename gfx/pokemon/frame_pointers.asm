@@ -254,4 +254,5 @@ FramesPointers:
 	dba AzurillFrames
 	dba FarigirafFrames
 	dba WyrdeerFrames
+	dba MamoswineFrames
 	assert_table_length NUM_POKEMON

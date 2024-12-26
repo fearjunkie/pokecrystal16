@@ -255,5 +255,6 @@ AnimationPointers:
 	dw FarigirafAnimation
 	dw WyrdeerAnimation
 	dw MamoswineAnimation
+	dw GlaceonAnimation
 	
 	assert_table_length NUM_POKEMON

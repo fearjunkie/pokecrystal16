@@ -256,4 +256,5 @@ PokedexDataPointerTable:
 	dba FarigirafPokedexEntry
 	dba WyrdeerPokedexEntry
 	dba MamoswinePokedexEntry
+	dba GlaceonPokedexEntry
 	assert_table_length NUM_POKEMON

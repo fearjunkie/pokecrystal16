@@ -257,4 +257,5 @@ Pokered_MonIndices:
 	db WOBBUFFET
 	db STANTLER
 	db SWINUB
+	db EEVEE
 	assert_table_length NUM_POKEMON + 1

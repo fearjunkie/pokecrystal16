@@ -261,4 +261,5 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,     0,  320 ; FARIGIRAF
 	mon_cry CRY_AIPOM,      -475,  494 ; WYRDEER
 	mon_cry CRY_MAGCARGO,   -379,  384 ; MAMOSWINE
+	mon_cry CRY_VENONAT,     162,  300 ; GLACEON
 	assert_table_length NUM_POKEMON

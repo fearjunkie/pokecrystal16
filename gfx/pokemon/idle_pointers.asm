@@ -255,5 +255,6 @@ AnimationIdlePointers:
 	dw FarigirafAnimationIdle
 	dw WyrdeerAnimationIdle
 	dw MamoswineAnimationIdle
+	dw GlaceonAnimationIdle
 	
 	assert_table_length NUM_POKEMON

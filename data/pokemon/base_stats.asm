@@ -281,4 +281,6 @@ INCLUDE "data/pokemon/base_stats/celebi.asm"
 INCLUDE "data/pokemon/base_stats/azurill.asm"
 INCLUDE "data/pokemon/base_stats/farigiraf.asm"
 INCLUDE "data/pokemon/base_stats/wyrdeer.asm"
+INCLUDE "data/pokemon/base_stats/mamoswine.asm"
+INCLUDE "data/pokemon/base_stats/glaceon.asm"
 .IndirectEnd::

@@ -105,6 +105,7 @@ EvosAttacksPointers2::
 	dw FarigirafEvosAttacks
 	dw WyrdeerEvosAttacks
 	dw MamoswineEvosAttacks
+	dw GlaceonEvosAttacks
 	
 .IndirectEnd::
 
@@ -1511,4 +1512,18 @@ MamoswineEvosAttacks:
 	dbw 51, EARTHQUAKE
 	dbw 58, BLIZZARD
 	dbw 65, ANCIENTPOWER
+	db 0 ; no more level-up moves
+	
+GlaceonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, TAIL_WHIP
+	dbw 8, SAND_ATTACK
+	dbw 15, ICY_WIND
+	dbw 23, QUICK_ATTACK
+	dbw 30, BITE
+	dbw 36, ICE_BEAM
+	dbw 42, HAIL
+	dbw 47, MIRROR_COAT
+	dbw 52, BLIZZARD
 	db 0 ; no more level-up moves

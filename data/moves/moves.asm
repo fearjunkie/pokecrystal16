@@ -76,7 +76,7 @@ Moves1:
 	move EFFECT_NORMAL_HIT,        120, WATER,          80,  5,   0      ;HYDRO_PUMP
 	move EFFECT_NORMAL_HIT,         95, WATER,         100, 15,   0      ;SURF
 	move EFFECT_FREEZE_HIT,         95, ICE,           100, 15,  10      ;ICE_BEAM
-	move EFFECT_FREEZE_HIT,        120, ICE,            70,  5,  10      ;BLIZZARD
+	move EFFECT_BLIZZARD,          120, ICE,            70,  5,  10      ;BLIZZARD
 	move EFFECT_CONFUSE_HIT,        65, PSYCHIC_TYPE,  100, 20,  10      ;PSYBEAM
 	move EFFECT_SPEED_DOWN_HIT,     65, WATER,         100, 20,  10      ;BUBBLEBEAM
 	move EFFECT_ATTACK_DOWN_HIT,    65, ICE,           100, 20,  10      ;AURORA_BEAM
@@ -285,5 +285,6 @@ Moves1:
 	move EFFECT_RECOIL_HIT,        150, ROCK,           80,  5,   0      ;HEAD_SMASH
 	move EFFECT_DEFENSE_UP_HIT,     70, PSYCHIC_TYPE,   90, 10, 100      ;PSYSHIELDBSH
 	move EFFECT_FLINCH_HIT,         30, GHOST,         100, 15,  30      ;ASTONISH
+	move EFFECT_HAIL,                0, ICE,           100, 10,   0      ;HAIL
 	
 .IndirectEnd::

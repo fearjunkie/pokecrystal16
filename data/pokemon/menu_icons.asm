@@ -257,4 +257,5 @@ MonMenuIcons:
 	db ICON_EQUINE      ; FARIGIRAF
 	db ICON_EQUINE      ; WYRDEER
 	db ICON_EQUINE      ; MAMOSWINE
+	db ICON_FOX         ; GLACEON
 	assert_table_length NUM_POKEMON

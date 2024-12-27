@@ -256,4 +256,5 @@ FramesPointers:
 	dba WyrdeerFrames
 	dba MamoswineFrames
 	dba GlaceonFrames
+	dba LeafeonFrames
 	assert_table_length NUM_POKEMON

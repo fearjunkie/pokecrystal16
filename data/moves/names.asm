@@ -268,4 +268,5 @@ MoveNames::
 	li "PSYSHIELDBSH"
 	li "ASTONISH"
 	li "HAIL"
+	li "LEAF BLADE"
 	assert_list_length NUM_ATTACKS

@@ -262,4 +262,5 @@ PokemonCries::
 	mon_cry CRY_AIPOM,      -475,  494 ; WYRDEER
 	mon_cry CRY_MAGCARGO,   -379,  384 ; MAMOSWINE
 	mon_cry CRY_VENONAT,     162,  300 ; GLACEON
+	mon_cry CRY_VENONAT,     128,  192 ; LEAFEON
 	assert_table_length NUM_POKEMON

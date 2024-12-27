@@ -276,6 +276,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const WYRDEER
 	const MAMOSWINE
 	const GLACEON
+	const LEAFEON
 	
 DEF NUM_POKEMON EQU const_value - 1
 

@@ -274,6 +274,7 @@
 	const PSYSHIELDBSH
 	const ASTONISH
 	const HAIL
+	const LEAF_BLADE
 	
 DEF NUM_ATTACKS EQU const_value - 1
 

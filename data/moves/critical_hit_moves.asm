@@ -8,4 +8,5 @@ CriticalHitMoves:
 	dw CROSS_CHOP
 	dw NIGHT_SLASH
 	dw CUT
+	dw LEAF_BLADE
 	dw -1

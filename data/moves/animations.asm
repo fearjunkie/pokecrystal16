@@ -297,6 +297,7 @@ BattleAnimations::
 	dw BattleAnim_PsyShieldBsh
 	dw BattleAnim_Astonish
 	dw BattleAnim_Hail
+	dw BattleAnim_LeafBlade
 
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
@@ -1554,6 +1555,7 @@ BattleAnim_FurySwipes:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_LeafBlade:
 BattleAnim_Cut:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT

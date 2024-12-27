@@ -260,4 +260,5 @@ PokemonNames::
 	db "WYRDEER@@@"
 	db "MAMOSWINE@"
 	db "GLACEON@@@"
+	db "LEAFEON@@@"
 	assert_table_length NUM_POKEMON

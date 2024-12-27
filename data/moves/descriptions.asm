@@ -273,6 +273,7 @@ MoveDescriptions1:
 	dw PsyShieldBshDescription
 	dw AstonishDescription
 	dw HailDescription
+	dw LeafBladeDescription
 	
 .IndirectEnd::
 
@@ -1350,3 +1351,7 @@ AstonishDescription:
 HailDescription:
 	db	 "Summons hailstorm"
 	db   "Hurts all but ICE.@"
+
+LeafBladeDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"

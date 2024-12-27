@@ -106,6 +106,7 @@ EvosAttacksPointers2::
 	dw WyrdeerEvosAttacks
 	dw MamoswineEvosAttacks
 	dw GlaceonEvosAttacks
+	dw LeafeonEvosAttacks
 	
 .IndirectEnd::
 
@@ -1526,4 +1527,18 @@ GlaceonEvosAttacks:
 	dbw 42, HAIL
 	dbw 47, MIRROR_COAT
 	dbw 52, BLIZZARD
+	db 0 ; no more level-up moves
+
+LeafeonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, TAIL_WHIP
+	dbw 8, SAND_ATTACK
+	dbw 15, RAZOR_LEAF
+	dbw 23, QUICK_ATTACK
+	dbw 30, SYNTHESIS
+	dbw 36, GIGA_DRAIN
+	dbw 42, SUNNY_DAY
+	dbw 47, SWORDS_DANCE
+	dbw 52, LEAF_BLADE
 	db 0 ; no more level-up moves

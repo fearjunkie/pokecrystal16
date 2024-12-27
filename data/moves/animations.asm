@@ -22,9 +22,9 @@
 	dw BattleAnim_PlayerStatDown
 	dw BattleAnim_PlayerDamage
 	dw BattleAnim_Wobble
-	dw BattleAnim_InHail
 	dw BattleAnim_Shake
 	dw BattleAnim_HitConfusion
+	dw BattleAnim_InHail
 	assert_table_length NUM_BATTLE_ANIMS
 BattleAnimations::
 	table_width 2, BattleAnimations
@@ -4633,11 +4633,11 @@ BattleAnim_Hail:
 BattleAnim_InHail:
 	anim_1gfx ANIM_GFX_ICE
 	anim_bgeffect ANIM_BG_WHITE_HUES, $0, $8, $0
-	anim_obj ANIM_OBJ_HAIL, 88, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_HAIL, 88, 0, $0
 	anim_wait 8
-	anim_obj ANIM_OBJ_HAIL, 72, 0, $1
+	anim_obj BATTLE_ANIM_OBJ_HAIL, 72, 0, $1
 	anim_wait 8
-	anim_obj ANIM_OBJ_HAIL, 56, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_HAIL, 56, 0, $2
 .loop
 	anim_sound 0, 1, SFX_SHINE
 	anim_wait 8

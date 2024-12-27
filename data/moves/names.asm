@@ -267,5 +267,5 @@ MoveNames::
 	li "HEAD SMASH"
 	li "PSYSHIELDBSH"
 	li "ASTONISH"
-	
+	li "HAIL"
 	assert_list_length NUM_ATTACKS

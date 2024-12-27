@@ -273,6 +273,7 @@
 	const HEAD_SMASH
 	const PSYSHIELDBSH
 	const ASTONISH
+	const HAIL
 	
 DEF NUM_ATTACKS EQU const_value - 1
 
@@ -292,6 +293,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const ANIM_ENEMY_STAT_DOWN   ;  -6 (fffa)
 	const ANIM_ENEMY_DAMAGE      ;  -7 (fff9)
 	const ANIM_MISS              ;  -8 (fff8)
+	const BATTLEANIM_IN_HAIL
 ; battle anims
 	const ANIM_IN_WHIRLPOOL      ;  -9 (fff7)
 	const ANIM_IN_NIGHTMARE      ;  -a (fff6)
@@ -319,4 +321,4 @@ DEF NUM_BATTLE_ANIMS EQU -const_value - 1
 	const BATTLEANIM_WOBBLE
 	const BATTLEANIM_SHAKE
 	const BATTLEANIM_HIT_CONFUSION
-	const BATTLEANIM_IN_HAIL
+	

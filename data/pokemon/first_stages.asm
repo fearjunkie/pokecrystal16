@@ -256,4 +256,5 @@ FirstEvoStages::
 	dw GIRAFARIG
 	dw STANTLER
 	dw SWINUB
+	dw EEVEE
 	assert_table_length NUM_POKEMON

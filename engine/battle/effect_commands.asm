@@ -1796,7 +1796,7 @@ BattleCommand_CheckHit:
 
 .BlizzardHail:
 ; Return z if the current move always hits in hail, and it is hailing.
-	ld a BATTLE_VARS_MOVE_EFFECT
+	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
 	cp EFFECT_BLIZZARD
 	ret nz

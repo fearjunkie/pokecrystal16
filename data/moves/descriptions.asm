@@ -272,6 +272,7 @@ MoveDescriptions1:
 	dw HeadSmashDescription
 	dw PsyShieldBshDescription
 	dw AstonishDescription
+	dw HailDescription
 	
 .IndirectEnd::
 
@@ -1345,3 +1346,7 @@ PsyShieldBshDescription:
 AstonishDescription:
 	db	 "An attack that may"
 	db   "make foe flinch.@"
+	
+HailDescription:
+	db	 "Summons hailstorm"
+	db   "Hurts all but ICE.@"

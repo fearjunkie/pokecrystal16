@@ -1271,5 +1271,5 @@ BattleAnimFrameData:
 	oamend
 
 .Frameset_Hail:
-	oamframe BATTLEANIMOAMSET_HAIL, 32
+	oamframe BATTLE_ANIM_OAMSET_HAIL, 32
 	oamend
